@@ -196,7 +196,7 @@ nav ul li a:hover {
   text-shadow: 0 0 10px cyan;
 }
 
-/* Form styling */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -290,3 +290,32 @@ nav ul li a:hover {
   font-size: 16px;
   line-height: 1.6;
 }
+.hire-btn {
+  background-color: cyan;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: default;
+  pointer-events: none; 
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: cyan;
+  color: black;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: white;
+  color: black;
+}
+
